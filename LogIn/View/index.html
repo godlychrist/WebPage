@@ -12,36 +12,35 @@
 
     <main class="main">
 
-        <div class="contenedor-caja">
-            <div class="contenedor">
-                <img src="../Images/logo.png" alt="Aventones-logo" class="logo">
+
+        <div class="border-container">
+            <div class="img-container">
+                <img src="../Images/logo.png" alt="logo" class="img">
             </div>
 
+            <div class="button-container">
+                <a href="#" class="button-google">
+                    <img src="../Images/googlelogo.png" alt="logo-google" class="google">
+                    <b>Sign in with Google </b></a>
+            </div>
 
-            <button id="google-button" class="google">
-                <img src="../Images/googlelogo.png" alt="Google Icon" class="icon">
-                <b>Sign In With Google</b> </button>
-            <p class="orp"><b> Or </b></p>
+            <p class="Or">Or</p>
 
+            <div class="inputs-container">
+                <label for="username" class="lbl-username"> Username </label>
+                <input class="type" class="username">
 
-            <div class="inputs">
+                <label for="password" class="lbl-password"> Password </label>
+                <input class="password" class="password" placeholder="**********">
+            </div>
+            <p class="register-link"> Not an user? <a href="../../SignIn/View/index.html"> Register Now </p>
 
-                <label for="usuario" class="lbl-user"> Username </label>
-                <input type="text" id="usuario" />
-
-                <label for="password" class="lbl-login"> Password </label>
-                <input type="password" id="password" placeholder="**********" />
-
-                <p> Not an user? <a href="../../SignIn/View/index.html"> Register Here</a></p>
-
+            <div class="login-button">
+                    <a href="../../MainView/View/empty.html"> Login </a>
 
             </div>
 
-            <a href="../../MainView/View/empty.html" class="login">Login</a>
         </div>
-
-
-
     </main>
 
 </body>
