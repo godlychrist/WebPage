@@ -117,3 +117,40 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-top {
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-content a:hover {
+    color: purple;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
