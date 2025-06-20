@@ -141,9 +141,20 @@ td {
     border: 1px solid black;
 }
 
+th {
+    color: white;
+}
+
+.header-row th {
+    color: black;
+}
 
 .table-container table {
     width: 90%;
+}
+
+.user-logo {
+    visibility: hidden;
 }
 
 .table-container {
