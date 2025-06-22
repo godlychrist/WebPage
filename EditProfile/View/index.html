@@ -4,18 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignIn</title>
-    <link href="../Styles/SignIn.css" rel="stylesheet">
+    <title>EditProfile</title>
+    <link href="../Styles/styles.css" rel="stylesheet">
 </head>
 
 <body>
 
     <main class="main">
-        <div class="logo-container">
-            <img src="../Images/logo.png" alt="logo" class="Aventones-logo">
+        <div class="img-container">
+            <img src="../Images/logo.png" alt="Logo" class="imglogo">
         </div>
+        <nav class="nav-bar">
+            <ul class="nav-left">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rides</a></li>
+                <li><a href="#">Bookings</a></li>
+            </ul>
+            <div class="nav-right">
+                <input type="text" placeholder="Search...">
+                <img src="../Images/user.png" alt="user" class="icono-usuario">
+                <p class="hover-text">pito</p>
 
-        <p class="main-title"> User Registration </p>
+            </div>
+        </nav>
+
+        <p class="main-title"> Edit Profile </p>
         <div class="border-bottom"></div>
 
         <form class="general-container">
@@ -65,38 +78,21 @@
                 <label for="phone-number" class="lbl-phone"> Phone Number </label>
             </div>
 
-            <div class=W"city-personal-info">
+            <div class="city-personal-info">
                 <input type="text" class="city">
                 <input type="number" class="phone-number">
             </div>
 
             <div class="links">
-                <p> Already an user? <a href="../../LogIn/View/index.html"> Login Here </a></p>
-                <p> Register as driver? <a href="#"> Click Here </a></p>
+                <a href="#"> Cancel </a>
+                <a href="../../LogIn/View/index.html" class="sign-up"> Sign up </a>
             </div>
         </form>
 
-        <a href="../../LogIn/View/index.html" class="sign-up"> Sign up </a>
+
 
 
     </main>
-
-    <footer>
-        <div class="footer-top"></div>
-        <div class="footer-content">
-            <a href="#">Home</a> |
-            <a href="#">Rides</a> |
-            <a href="#">Bookings</a> |
-            <a href="#">Settings</a> |
-            <a href="#">Login</a> |
-            <a href="#">Register</a>
-        </div>
-        <div class="footer-bottom">
-            <span>© Aventones.com</span>
-        </div>
-
-
-    </footer>
 
 </body>
 
