@@ -246,11 +246,6 @@ body {
     margin-right: 610px;
 }
 
-.links {
-
-    margin-left: 412px;
-}
-
 .sign-up {
     display: block; /* Cambia a block para usar margin: 0 auto */
     background-color: gray;
@@ -272,4 +267,6 @@ label {
     gap: 410px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 80px;
+        margin-left: 412px;
+
 }
