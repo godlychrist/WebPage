@@ -160,3 +160,23 @@ body {
     margin-right: 10px;
 }
 
+.display-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.display-content table {
+    border-collapse: collapse;
+    width: auto;
+}
+
+.display-content th,
+.display-content td {
+    border: 1px solid black;
+    padding: 10px 40px;
+    text-align: left; /* Esto alinea el texto al inicio */
+}
+
+
