@@ -67,6 +67,7 @@ body {
     object-fit: contain;
 }
 
+
 .box-container {
     display: flex;
     flex-direction: column;
@@ -138,12 +139,66 @@ body {
 .table-container table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid black;    
+    border-collapse: collapse;
+
 }
 
 th {
     color: white;
 }
+
+.test {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid black;
+    transition: opacity 0.2s ease;
+    width: 100px;
+    z-index: 100;
+
+}
+
+.test table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100px;
+}
+
+.test table th {
+    text-align: start;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: purple;
+}
+
+.img-hover {
+  position: relative; /* Necesario para posicionar .test relativo a este contenedor */
+  display: inline-block;
+}
+
+.img-hover:hover .test {
+    visibility: visible;
+    opacity: 1;
+ 
+}
+
 
 .header-row th {
     color: black;
