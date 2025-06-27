@@ -137,18 +137,6 @@ a:hover {
     margin-top: -50px;
 }
 
-input, select {
-    
-    border-radius: 2px;
-    border: 1px solid#ccc;
-    outline: none;
-    
-}
-
-.first-input, .second-input {
-    border: 2px solid #ccc;
-}
-
 .input-group {
     display: flex;
     flex-direction: column;
@@ -185,6 +173,18 @@ input, select {
     height: 30px;
 }
 
+input, select {
+    
+    border-radius: 2px;
+    border: 1px solid#ccc;
+    outline: none;
+    
+}
+
+.first-input, .second-input {
+    border: 2px solid #ccc;
+}
+
 .seats,
 .fee {
     width: 100px;
@@ -212,7 +212,6 @@ input, select {
     margin-right: 550px;
 }
 
-
 .year {
     width: 100px;
     height: 30px;
@@ -230,6 +229,7 @@ input, select {
 
 .days-checkbox {
     margin-right: 43px;
+    
 }
 
 .checkboxs {

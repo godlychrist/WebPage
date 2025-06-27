@@ -183,3 +183,10 @@ a:hover {
     visibility: visible;
     opacity: 1;
 }
+
+input {
+    
+    border: 2px solid#ccc;
+    outline: none;
+    
+}
