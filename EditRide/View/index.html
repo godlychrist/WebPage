@@ -17,7 +17,7 @@
         <nav class="nav-bar">
             <ul class="nav-left">
                 <li><a href="../../MainView/View/empty.html" class="home">Home</a></li>
-                <li><a href="../../MyRides/View/index.html">Rides</a></li>
+                <li><a href="../../MyRides/View/index.html" class="ride">Rides</a></li>
                 <li><a href="../../Bookings/View/index.html">Bookings</a></li>
             </ul>
             <div class="nav-right">
@@ -28,6 +28,9 @@
                         <table>
                             <tr>
                                 <th><a href="../../LogIn/View/index.html">Logout</a></th>
+                            </tr>
+                            <tr>
+                                <th><a href="../../EditProfile/View/index.html">Profile</a></th>
                             </tr>
                             <tr>
                                 <th><a href="../../Configuration/View/index.html">Settings</a></th>
@@ -96,37 +99,37 @@
                 <div class="info-ride">
                     <div class="info-ride-group">
                         <label for="time">Time</label>
-                        <select class="time">
+                        <select class="time" id="time">
                             <option value="0">10 : 00 am</option>
                         </select>
                     </div>
 
                     <div class="info-ride-group">
                         <label for="seats">Seats</label>
-                        <input type="number" min="1" max="10" step="1" value="1" class="seats">
+                        <input type="number" min="1" max="10" step="1" value="1" class="seats" id="seats">
                     </div>
 
                     <div class="info-ride-group">
                         <label for="fee">Fee</label>
-                        <input type="number" min="1" max="100" step="1" value="1" class="fee">
+                        <input type="number" min="1" max="100" step="1" value="1" class="fee" id="fee">
                     </div>
                 </div>
 
                 <p class="box-title"> Vehicle Details </p>
                 <div class="vehicle-details">
                     <div class="details">
-                        <label for="lbl-brand">Time</label>
-                        <select class="select-brand">
+                        <label for="brand">Time</label>
+                        <select class="select-brand" id="brand">
                             <option value="0">Nissan</option>
                         </select>
                     </div>
                     <div class="details">
-                        <label for="text">Model</label>
-                        <input type="text" class="model-input">
+                        <label for="model">Model</label>
+                        <input type="text" class="model-input" id="model">
                     </div>
                     <div class="details">
                         <label for="year">Year</label>
-                        <input type="number" min="1" max="2025" step="1" value="2020" class="year">
+                        <input type="number" min="1" max="2025" step="1" value="2020" class="year" id="year">
                     </div>
                 </div>
 
@@ -139,6 +142,25 @@
             </div>
         </form>
     </main>
+
+    <footer>
+        <div class="footer-top"></div>
+        <div class="footer-content">
+            <a href="../../MainView/View/empty.html">Home</a> |
+            <a href="../../MyRides/View/index.html">Rides</a> |
+            <a href="../../Bookings/View/index.html">Bookings</a> |
+            <a href="../../Configuration/View/index.html">Settings</a> |
+            <a href="../../LogIn/View/index.html">Login</a> |
+            <a href="../../SignIn/View/index.html">Register</a>
+        </div>
+        <div class="footer-bottom">
+            <span>© Aventones.com</span>
+        </div>
+
+
+    </footer>
+
+
 
 </body>
 

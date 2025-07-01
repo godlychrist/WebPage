@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <main class="main">
         <div class="img-container">
             <img src="../Images/logo.png" alt="Logo" class="imglogo">
@@ -41,23 +40,24 @@
             </div>
         </nav>
 
-        <div class="title-container">
-            <h1 class="title"> New Ride</h1>
-            <div class="bottom-line"></div>
+        <div class="main-title">
+            <h1 class="title"> Ride Details </h1>
+            <div class="border-bottom"></div>
+        </div>
+        <div class="avatar-icon">
+            <img src="../Images/user.png" alt="icon-user" class="icono">
+            <p> <b>barroyo</b></p>
         </div>
 
-        <form class="add-ride">
+
+        <form class="ride-details">
+
             <div class="container-columns">
-                <div class="departure-arrival">
-                    <div class="input-group">
-                        <label for="departure" class="first-label">Departure from</label>
-                        <input type="text" id="departure" class="first-input">
-                    </div>
-                    <div class="input-group">
-                        <label for="arrival" class="first-label">Arrive To</label>
-                        <input type="text" id="arrival" class="second-input">
-                    </div>
+                <div class="destinations-info">
+                    <p>Departure from <span class="big">Quesada</span></p>
+                    <p>Arrive to <span class="big">Zarcero</span></p>
                 </div>
+
 
                 <div class="days-checkbox">
                     <div class="days-title">
@@ -98,20 +98,20 @@
 
                 <div class="info-ride">
                     <div class="info-ride-group">
-                        <label for="timeid">Time</label>
-                        <select class="time" id="timeid">
+                        <label for="time">Time</label>
+                        <select class="time" id="time">
                             <option value="0">10 : 00 am</option>
                         </select>
                     </div>
 
                     <div class="info-ride-group">
-                        <label for="seatsid">Seats</label>
-                        <input type="number" min="1" max="10" step="1" value="1" class="seats" id="seatsid">
+                        <label for="seats">Seats</label>
+                        <input type="number" min="1" max="10" step="1" value="1" class="seats" id="seats">
                     </div>
 
                     <div class="info-ride-group">
-                        <label for="feeid">Fee</label>
-                        <input type="number" min="1" max="100" step="1" value="1" class="fee" id="feeid">
+                        <label for="fee">Fee</label>
+                        <input type="number" min="1" max="100" step="1" value="1" class="fee" id="fee">
                     </div>
                 </div>
 
@@ -125,18 +125,18 @@
                     </div>
                     <div class="details">
                         <label for="model">Model</label>
-                        <input type="text" class="model-input" id="model">
+                        <input type="text" class="model-input" placeholder="March" id="model">
                     </div>
                     <div class="details">
-                        <label for="yearid">Year</label>
-                        <input type="number" min="1" max="2025" step="1" value="2020" class="year" id="yearid">
+                        <label for="year">Year</label>
+                        <input type="number" min="1" max="2025" step="1" value="2020" class="year" id="year">
                     </div>
                 </div>
 
                 <div class="links">
                     <a href="../../MainView/View/empty.html"> Cancel </a>
                     <div class="save-container">
-                        <a href="../../MainView/View/empty.html" class="save"> Save </a>
+                        <a href="../../MainView/View/empty.html" class="save"> Request </a>
                     </div>
                 </div>
             </div>
@@ -159,8 +159,6 @@
 
 
     </footer>
-
-
 
 </body>
 
