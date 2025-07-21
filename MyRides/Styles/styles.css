@@ -138,7 +138,7 @@ a:hover {
     border-collapse: collapse;
 }
 
-.table-container table th,
+.table-container table td,
 .table-container table tr {
     height: 40px;
 }

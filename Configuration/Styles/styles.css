@@ -95,7 +95,7 @@ body {
     margin-right: 500px;
 }
 
-.form .bio-container,
+.bio-container,
 .name-container {
     display: flex;
     flex-direction: column;
@@ -114,10 +114,11 @@ body {
     outline: none;
 }
 
-.bio-container input {
+.bio-container textarea {
     padding: 80px;
     width: 220%;
     border-radius: 2px;
+    resize: none;
 
 }
 
